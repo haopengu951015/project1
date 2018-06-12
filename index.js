@@ -1,0 +1,1 @@
+var oll=document.getElementsByName("li")

@@ -1,13 +1,10 @@
-var oll=document.getElementsByName("li");
-var obox=document.getElementById("#box");
- for(var i in oll){
-     oll.index=i;
-     oll[i].onclick=function(){
-         /* console.log(433) */
-         for(var j in oll){
-             oll[j].className="";
-         }
-         all[this.index].className="active";
-
+var op=document.getElementById("options");
+var oli=op.getElementsByName("li")
+var olist=document.getElementById("list");
+var oli1=olist.getElementsByName("li")
+ for(var i in oli){
+     oli.index=i;
+     oli[i].click=function(){
+         
      }
  }
